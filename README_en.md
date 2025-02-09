@@ -51,7 +51,7 @@
 
 ---
 
-### 🔹 [2GC FREE RDP](https://2gc.ru/download)  
+### 🔹 [2GC FREE RDP](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)  
 For secure remote desktop connection via Cloudflare Argo Tunnel.
 
 📖 [How to set up 2GC FREE RDP?](doc_en.md)

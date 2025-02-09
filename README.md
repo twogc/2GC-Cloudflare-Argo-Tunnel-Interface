@@ -38,13 +38,13 @@
 
 Для безопасного подключения к удалённому рабочему столу через Cloudflare Argo Tunnel.
 
-[![2GC FREE RDP](https://2gc.ru/download)](https://2gc.ru/download)
+[![2GC FREE RDP](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)
 
 ### 2GC FREE SSH
 
 Для защищённого подключения к SSH через Cloudflare Argo Tunnel.
 
-[![2GC FREE SSH](https://2gc.ru/download)](https://2gc.ru/download)
+[![2GC FREE SSH](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)
 
 ### 2GC BUSINESS
 
