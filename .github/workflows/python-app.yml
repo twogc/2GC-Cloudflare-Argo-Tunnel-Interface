@@ -2,9 +2,8 @@ name: Build and Package Windows Executable
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+      - "v*"
 
 permissions:
   contents: write
@@ -27,34 +26,29 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install -r win/requirements.txt
-        python -m pip install pytest  # ✅ Устанавливаем pytest
-
-    - name: Debug - List installed Python packages
-      run: python -m pip list  # ✅ Показывает, установлен ли pytest
-
-    - name: Debug - Show Python sys.path
-      run: python -c "import sys; print('\n'.join(sys.path))"
-
-    - name: Verify pytest installation
-      run: python -m pytest --version  # ✅ Проверяем, что pytest установлен
+        python -m pip install pytest pyinstaller
 
     - name: Download cloudflared
-      run: |
-        Invoke-WebRequest -Uri "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe" -OutFile "win/cloudflared.exe"
+      run: Invoke-WebRequest -Uri "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe" -OutFile "win/cloudflared.exe"
+
+    - name: Run tests with pytest
+      run: python -m pytest win/tests/ --maxfail=1 --disable-warnings -q
 
     - name: Build executable with PyInstaller
       run: |
         python -m pip install pyinstaller
         pyinstaller --onefile --name cloudflare-tunnel.exe win/app.py
 
-    - name: Upload artifact (Windows Executable)
+    - name: Debug - List built files
+      run: ls -lah dist/
+
+    - name: Upload artifact to GitHub Actions
       uses: actions/upload-artifact@v4
       with:
         name: cloudflare-tunnel-windows
         path: dist/cloudflare-tunnel.exe
 
-    - name: Make release (Optional)
-      if: startsWith(github.ref, 'refs/tags/')
+    - name: Attach `.exe` to GitHub Release
       uses: softprops/action-gh-release@v1
       with:
         files: dist/cloudflare-tunnel.exe
