@@ -6,7 +6,6 @@
 [![Telegram Support](https://img.shields.io/badge/Telegram%20Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/suppport2gc_bot)
 
 
-(https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/stargazers)
 [![Forks](https://img.shields.io/github/forks/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/network)
 [![Issues](https://img.shields.io/github/issues/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/issues)
