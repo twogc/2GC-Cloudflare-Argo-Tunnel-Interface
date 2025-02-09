@@ -5,7 +5,7 @@
 <div id="badges" align="center">
     
 [![License](https://img.shields.io/github/license/mlanies/2GC?style=for-the-badge)](https://github.com/mlanies/2GC/blob/main/LICENSE)
-[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white)](https://2gc.ru)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white)](https://2gc.io)
 [![Telegram Support](https://img.shields.io/badge/Telegram%20Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/suppport2gc_bot)
 [![Stars](https://img.shields.io/github/stars/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/stargazers)
 [![Forks](https://img.shields.io/github/forks/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/network)
