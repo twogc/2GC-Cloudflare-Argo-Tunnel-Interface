@@ -2,17 +2,11 @@
     <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_logo.ico" alt="2GC Logo">
 </div>
 
-<div id="badges" align="center">
-    <a href="https://2gc.ru" target="_blank">
-        <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white" alt="2GC"/>
-    </a>
-    <a href="https://t.me/suppport2gc_bot" target="_blank">
-        <img src="https://img.shields.io/badge/Telegram Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"/>
-    </a>
-    <a href="https://github.com/mlanies/2GC/blob/main/LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/mlanies/2GC?style=for-the-badge" alt="License"/>
-    </a>
-</div>
+
+[![License](https://img.shields.io/github/license/mlanies/2GC?style=for-the-badge)](https://github.com/mlanies/2GC/blob/main/LICENSE)
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white)](https://2gc.ru)
+[![Telegram Support](https://img.shields.io/badge/Telegram%20Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/suppport2gc_bot)
+
 
 # [2GC](https://2gc.ru)
 
