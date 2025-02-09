@@ -22,7 +22,7 @@ jobs:
         pytest win/tests/ --maxfail=1 --disable-warnings -q
 
     - name: Set up Python 3.10
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: "3.10"
 
@@ -37,7 +37,7 @@ jobs:
         pyinstaller --onefile --name cloudflare-tunnel.exe win/app.py
 
     - name: Upload artifact (Windows Executable)
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  
       with:
         name: cloudflare-tunnel-windows
         path: dist/cloudflare-tunnel.exe  # Загружаем exe в артефакты
