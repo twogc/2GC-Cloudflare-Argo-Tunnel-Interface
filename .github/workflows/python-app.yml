@@ -43,7 +43,7 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        python -m pytest win/tests/ --maxfail=1 --disable-warnings -q  # ✅ Запускаем через python -m pytest
+          python -m pytest win/tests/ --maxfail=1 --disable-warnings -q
 
     - name: Build executable with PyInstaller
       run: |
