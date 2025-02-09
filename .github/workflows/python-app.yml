@@ -37,7 +37,7 @@ jobs:
 
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller --onefile --name cloudflare-tunnel.exe win/app.py
+        pyinstaller --onefile --name cloudflare-tunnel.exe --add-data "win/cloudflared.exe;." win/app.py
 
     - name: Debug - List built files
       run: Get-ChildItem -Path dist | Format-Table -AutoSize
