@@ -49,6 +49,7 @@ jobs:
         path: dist/cloudflare-tunnel.exe
 
     - name: Attach `.exe` to GitHub Release
+      if: startsWith(github.ref, 'refs/tags/')  # ✅ Загружаем в релиз, если это тег
       uses: softprops/action-gh-release@v1
       with:
         files: dist/cloudflare-tunnel.exe
