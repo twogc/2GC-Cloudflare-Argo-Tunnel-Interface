@@ -17,16 +17,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Ensure Git is Installed
-      run: |
-        if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
-          Write-Host "Git is not installed. Installing..."
-          choco install git -y
-        }
-        git --version
-
     - name: Set up Python 3.10
-      uses: actions/setup-python@v4  # ✅ Используем v4
+      uses: actions/setup-python@v4
       with:
         python-version: "3.10"
         cache: 'pip'  # ✅ Кэшируем зависимости pip
@@ -35,7 +27,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r win/requirements.txt
-        python -m pip install pytest pyinstaller  # ✅ Устанавливаем pytest и pyinstaller явно
+        python -m pip install pytest  # ✅ Устанавливаем pytest явно
 
     - name: Verify pytest installation
       run: |
@@ -43,17 +35,18 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-          python -m pytest win/tests/ --maxfail=1 --disable-warnings -q
+        python -m pytest win/tests/ --maxfail=1 --disable-warnings -q  # ✅ Запускаем через python -m pytest
 
     - name: Build executable with PyInstaller
       run: |
+        python -m pip install pyinstaller
         pyinstaller --onefile --name cloudflare-tunnel.exe win/app.py
 
     - name: Upload artifact (Windows Executable)
-      uses: actions/upload-artifact@v4  # ✅ Используем v4
+      uses: actions/upload-artifact@v4
       with:
         name: cloudflare-tunnel-windows
-        path: dist/cloudflare-tunnel.exe  # Загружаем exe в артефакты
+        path: dist/cloudflare-tunnel.exe
 
     - name: Make release (Optional)
       if: startsWith(github.ref, 'refs/tags/')
