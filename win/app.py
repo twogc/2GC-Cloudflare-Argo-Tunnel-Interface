@@ -26,7 +26,7 @@ class App(QApplication):
     
     def __init__(self, sys_argv):
         super(App, self).__init__(sys_argv)
-        version = "2.0.0"
+        version = "2.0.1"
         site_url = "https://2gc.io/"
         url_views = "2gc.io"
         self.model = SqliteDBConnect()
