@@ -1,76 +1,60 @@
-Вот обновленный шаблон с значками для репозитория https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface:
+# 2GC Cloudflare Argo Tunnel Interface
 
-```
-# [2GC](https://2gc.ru)
+[![License](https://img.shields.io/github/license/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/stargazers)
+[![Forks](https://img.shields.io/github/forks/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/network)
+[![Issues](https://img.shields.io/github/issues/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/issues)
 
-> 🚀 **2GC** — это мощное и удобное решение для запуска зашифрованного канала **Argo Tunnel** через **Cloudflare**, обеспечивающее безопасный удалённый доступ к вашим серверам.
+## О проекте
 
-📌 [Английская версия](README_en.md)
+2GC Cloudflare Argo Tunnel Interface - это приложение, которое позволяет легко настроить и управлять Cloudflare Argo Tunnel, создавая безопасное зашифрованное соединение между сервером и Cloudflare.
 
----
+### Преимущества
 
-## 🔐 Что такое 2GC?
+* **Безопасность**: сервер остаётся скрытым от интернета, доступ возможен только через Cloudflare.
+* **Простота**: удобный интерфейс без сложных команд и настроек.
+* **Гибкость**: поддержка RDP, SSH и любых TCP-портов.
 
-2GC — это приложение, которое позволяет легко настроить и управлять **Cloudflare Argo Tunnel**, создавая безопасное зашифрованное соединение между сервером и Cloudflare.  
+## Версии 2GC
 
-### 🔹 Преимущества:
-- **Безопасность**: сервер остаётся скрытым от интернета, доступ возможен только через Cloudflare.  
-- **Простота**: удобный интерфейс без сложных команд и настроек.  
-- **Гибкость**: поддержка RDP, SSH и любых TCP-портов.  
+### 2GC FREE DEMO
 
-<div align="center">
-    <img src="https://pub-39c0bfd961854a87ad355d11701329e5.r2.dev/2gc-cf.png" alt="2GC Argo Tunnel">
-</div>
+Бесплатная версия для тестирования возможностей 2GC.
 
----
+[![2GC FREE DEMO](https://github.com/mlanies/2GC-app-ras/blob/main/2gc-free.gif)](https://2gc.ru/download)
 
-## 🖥️ Версии 2GC
+**Требования:**
 
-### 🎯 2GC FREE DEMO
-⚡ Бесплатная версия для тестирования возможностей 2GC.
+* Windows 10 и выше
+* Интернет от 10 Мбит/с
 
-<div align="center">
-    <img src="https://github.com/mlanies/2GC-app-ras/blob/main/2gc-free.gif" alt="2GC Free Demo">
-</div>
+### 2GC FREE RDP
 
-**Требования:**  
-- Windows 10 и выше  
-- Интернет от 10 Мбит/с  
-
----
-
-### 🔹 [2GC FREE RDP](https://2gc.ru/download)  
 Для безопасного подключения к удалённому рабочему столу через Cloudflare Argo Tunnel.
 
-📖 [Как настроить 2GC FREE RDP?](doc_ru.md)
+[![2GC FREE RDP](https://2gc.ru/download)](https://2gc.ru/download)
 
----
+### 2GC FREE SSH
 
-### 🔹 [2GC FREE SSH](https://2gc.ru/download)  
 Для защищённого подключения к SSH через Cloudflare Argo Tunnel.
 
-📖 [Как настроить 2GC FREE SSH?](doc_ru.md)
+[![2GC FREE SSH](https://2gc.ru/download)](https://2gc.ru/download)
 
----
+### 2GC BUSINESS
 
-### 🚀 [2GC BUSINESS](https://2gc.ru/download)  
 Расширенная версия с дополнительными возможностями для бизнеса.
 
-<div align="center">
-    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg" width="300" alt="2GC Business">
-</div>
+[![2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg)](https://2gc.ru/download)
 
-🔹 **Функции 2GC BUSINESS**  
-✅ Подключение RDP  
-✅ Подключение SSH  
-✅ Подключение любого TCP-порта  
-✅ Шифрованное сохранение логина и пароля  
+**Функции 2GC BUSINESS**
 
----
+* Подключение RDP
+* Подключение SSH
+* Подключение любого TCP-порта
+* Шифрованное сохранение логина и пароля
 
-## 🛠️ Личный кабинет 2GC BUSINESS
+## Личный кабинет 2GC BUSINESS
 
-📌 Управляйте доступом и серверами из централизованного интерфейса.
+Управляйте доступом и серверами из централизованного интерфейса.
 
-<div align="center">
-    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.
+[![Личный кабинет 2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.png)](https://2gc.ru/download)
