@@ -1,5 +1,7 @@
 # 2GC Cloudflare Argo Tunnel Interface
-
+<div id="header" align="center">
+    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_logo.ico" alt="2GC Logo">
+</div>
 
 [![License](https://img.shields.io/github/license/mlanies/2GC?style=for-the-badge)](https://github.com/mlanies/2GC/blob/main/LICENSE)
 [![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white)](https://2gc.ru)
