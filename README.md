@@ -64,3 +64,15 @@
 Управляйте доступом и серверами из централизованного интерфейса.
 
 [![Личный кабинет 2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.png)](https://2gc.ru/download)
+
+## 👥 Contributors
+
+<a href="https://github.com/mlanies/2GC/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=mlanies/2GC" alt="Contributors">
+</a>
+
+---
+
+## 📜 License
+
+2GC is published under the [MIT License](LICENSE).
