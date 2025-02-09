@@ -52,6 +52,6 @@ jobs:
       if: startsWith(github.ref, 'refs/tags/')  # Только при создании нового тега
       uses: softprops/action-gh-release@v1
       with:
-        files: dist/cloudflare-tunnel.exe
+        files: dist/2gc-rdp-free.exe
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
