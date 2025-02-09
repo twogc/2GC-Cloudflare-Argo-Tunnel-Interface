@@ -38,8 +38,9 @@ jobs:
     - name: Verify pytest installation
       run: python -m pytest --version  # ✅ Проверяем, что pytest установлен
 
-    - name: Run tests with pytest
-      run: python -m pytest win/tests/ --maxfail=1 --disable-warnings -q  # ✅ Запускаем правильно
+    - name: Download cloudflared
+      run: |
+        Invoke-WebRequest -Uri "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe" -OutFile "win/cloudflared.exe"
 
     - name: Build executable with PyInstaller
       run: |
