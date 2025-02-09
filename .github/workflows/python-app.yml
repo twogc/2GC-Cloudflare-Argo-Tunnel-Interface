@@ -40,7 +40,7 @@ jobs:
         pyinstaller --onefile --name cloudflare-tunnel.exe win/app.py
 
     - name: Debug - List built files
-      run: ls -lah dist/
+      run: Get-ChildItem -Path dist | Format-Table -AutoSize
 
     - name: Upload artifact to GitHub Actions
       uses: actions/upload-artifact@v4
