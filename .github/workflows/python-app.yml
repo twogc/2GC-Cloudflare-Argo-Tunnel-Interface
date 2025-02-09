@@ -37,7 +37,7 @@ jobs:
 
     - name: Build executable with PyInstaller
       run: |
-        pyinstaller --onefile --name cloudflare-tunnel.exe --add-data "win/cloudflared.exe;." win/app.py
+        pyinstaller --onefile --name 2gc-rdp-free.exe --add-data "win/cloudflared.exe;." win/app.py
 
     - name: Debug - List built files
       run: Get-ChildItem -Path dist | Format-Table -AutoSize
@@ -45,8 +45,8 @@ jobs:
     - name: Upload artifact to GitHub Actions
       uses: actions/upload-artifact@v4
       with:
-        name: cloudflare-tunnel-windows
-        path: dist/cloudflare-tunnel.exe
+        name: 2gc-rdp-free-windows
+        path: dist/2gc-rdp-free.exe
 
     - name: Attach `.exe` to GitHub Release
       if: startsWith(github.ref, 'refs/tags/')  # Только при создании нового тега
