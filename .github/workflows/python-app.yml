@@ -17,6 +17,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Test with pytest
+      run: |
+        pytest win/tests/ --maxfail=1 --disable-warnings -q
+
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
