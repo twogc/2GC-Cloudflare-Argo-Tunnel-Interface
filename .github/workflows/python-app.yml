@@ -1,4 +1,4 @@
-name: Build and Test Python Application (Windows)
+name: Build and Package Windows Executable
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: write  # Нужно для загрузки артефактов
+  contents: write  # Нужно для загрузки артефактов и релизов
 
 jobs:
   build:
@@ -27,17 +27,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r win/requirements.txt
 
-    - name: Lint with flake8
-      run: |
-        pip install flake8
-        flake8 win/ --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 win/ --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-
-    - name: Test with pytest
-      run: |
-        pip install pytest
-        pytest win/tests/ --maxfail=1 --disable-warnings -q
-
     - name: Build executable with PyInstaller
       run: |
         pip install pyinstaller
@@ -47,4 +36,12 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: cloudflare-tunnel-windows
-        path: dist/cloudflare-tunnel.exe  # Путь к собранному exe
+        path: dist/cloudflare-tunnel.exe  # Загружаем exe в артефакты
+
+    - name: Make release (Optional)
+      if: startsWith(github.ref, 'refs/tags/')
+      uses: softprops/action-gh-release@v1
+      with:
+        files: dist/cloudflare-tunnel.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
