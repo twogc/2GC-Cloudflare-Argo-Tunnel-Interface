@@ -27,23 +27,19 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install -r win/requirements.txt
-        python -m pip install pytest  # ✅ Устанавливаем pytest явно
+        python -m pip install pytest  # ✅ Гарантированно устанавливаем pytest
 
     - name: List installed Python packages
-      run: |
-        python -m pip list  # ✅ Покажет, установлен ли pytest
+      run: python -m pip list  # ✅ Показывает, установлен ли pytest
 
     - name: Ensure pytest is in PATH
-      run: |
-        echo "C:\Users\runneradmin\AppData\Local\Programs\Python\Python310\Scripts" >> $GITHUB_PATH
+      run: echo "C:\Users\runneradmin\AppData\Local\Programs\Python\Python310\Scripts" >> $GITHUB_PATH
 
     - name: Verify pytest installation
-      run: |
-        python -m pytest --version  # ✅ Проверяем, что pytest установлен
+      run: python -m pytest --version  # ✅ Проверяем, что pytest установлен
 
     - name: Run tests with pytest
-      run: |
-        python -m pytest win/tests/ --maxfail=1 --disable-warnings -q  # ✅ Python найдёт pytest
+      run: python -m pytest win/tests/ --maxfail=1 --disable-warnings -q  # ✅ Запускаем правильно
 
     - name: Build executable with PyInstaller
       run: |
