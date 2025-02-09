@@ -1,24 +1,11 @@
-<div id="header" align="center">
-    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_logo.ico" alt="2GC Logo">
-</div>
+Вот обновленный шаблон с значками для репозитория https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface:
 
-<div id="badges" align="center">
-    <a href="https://2gc.ru" target="_blank">
-        <img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logoColor=white" alt="2GC"/>
-    </a>
-    <a href="https://t.me/suppport2gc_bot" target="_blank">
-        <img src="https://img.shields.io/badge/Telegram Support-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot"/>
-    </a>
-    <a href="https://github.com/mlanies/2GC/blob/main/LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/mlanies/2GC?style=for-the-badge" alt="License"/>
-    </a>
-</div>
-
+```
 # [2GC](https://2gc.ru)
 
 > 🚀 **2GC** — это мощное и удобное решение для запуска зашифрованного канала **Argo Tunnel** через **Cloudflare**, обеспечивающее безопасный удалённый доступ к вашим серверам.
 
-📌 [English version](README_en.md)
+📌 [Английская версия](README_en.md)
 
 ---
 
@@ -86,32 +73,4 @@
 📌 Управляйте доступом и серверами из централизованного интерфейса.
 
 <div align="center">
-    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.png" alt="2GC Dashboard">
-</div>
-
-🔹 **Возможности личного кабинета**  
-✅ Управление пользователями  
-✅ Мониторинг серверов и сервисов  
-✅ Настройка групп доступа  
-
----
-
-## ⚠️ Известные проблемы
-
-- ⚠ **Конфликт с USB-ключом банк-клиента Сбербанк.**  
-- ⚠ **Проброс ЭЦП может занимать продолжительное время.**  
-  👉 **Рекомендуется использовать USB-накопитель на подключаемом сервере.**
-
----
-
-## 👥 Авторы
-
-<a href="https://github.com/mlanies/2GC/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mlanies/2GC" alt="Contributors">
-</a>
-
----
-
-## 📜 Лицензия
-
-2GC распространяется под [MIT License](LICENSE).
+    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.
