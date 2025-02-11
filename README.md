@@ -67,9 +67,12 @@
 
 ## 👥 Contributors
 
-<a href="https://github.com/mlanies/2GC/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mlanies/2GC" alt="Contributors">
-</a>
+<a href="https://github.com/mlanies/2GC/graphs/contributors"></a>
+<tr>
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/mlanies"><img src="https://avatars.githubusercontent.com/u/8503331?v=3?s=100" width="100px;" alt="Ланиес Максим"/><br /><sub><b>Mayank Badola</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=mbad0la" title="Documentation">📖</a> <a href="#tool-mbad0la" title="Tools">🔧</a></td>
+<td align="center" valign="top" width="14.28%"><a href="https://github.com/mbad0la"><img src="https://avatars.githubusercontent.com/u/8503331?v=3?s=100" width="100px;" alt="Mayank Badola"/><br /><sub><b>Mayank Badola</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=mbad0la" title="Documentation">📖</a> <a href="#tool-mbad0la" title="Tools">🔧</a></td>
+    <td align="center" valign="top" width="14.28%"><a href="https://github.com/mbad0la"><img src="https://avatars.githubusercontent.com/u/8503331?v=3?s=100" width="100px;" alt="Mayank Badola"/><br /><sub><b>Mayank Badola</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=mbad0la" title="Documentation">📖</a> <a href="#tool-mbad0la" title="Tools">🔧</a></td>
+</tr>
 
 ---
 
