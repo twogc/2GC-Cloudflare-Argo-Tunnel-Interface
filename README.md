@@ -48,6 +48,8 @@
 
 ### 2GC BUSINESS
 
+[GitHub](https://github.com/twogc/2gc-business)
+
 Расширенная версия с дополнительными возможностями для бизнеса.
 
 [![2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg)](https://2gc.ru/download)

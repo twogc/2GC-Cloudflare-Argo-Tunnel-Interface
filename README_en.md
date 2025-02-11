@@ -66,6 +66,9 @@ For a secure SSH connection via Cloudflare Argo Tunnel.
 ---
 
 ### 🚀 [2GC BUSINESS](https://2gc.ru/download)  
+
+[GitHub](https://github.com/twogc/2gc-business)
+
 An advanced version with additional features for businesses.
 
 <div align="center">
@@ -81,6 +84,9 @@ An advanced version with additional features for businesses.
 ---
 
 ## 🛠️ 2GC BUSINESS Dashboard
+
+
+
 
 📌 Manage access and servers from a centralized interface.
 
