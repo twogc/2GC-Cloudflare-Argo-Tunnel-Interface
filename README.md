@@ -11,7 +11,8 @@
 [![Forks](https://img.shields.io/github/forks/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/network)
 [![Issues](https://img.shields.io/github/issues/twogc/2GC-Cloudflare-Argo-Tunnel-Interface?style=for-the-badge)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/issues)
 </div>
-# О проекте
+
+## О проекте
 
 2GC Cloudflare Argo Tunnel Interface - это приложение, которое позволяет легко настроить и управлять Cloudflare Argo Tunnel, создавая безопасное зашифрованное соединение между сервером и Cloudflare.
 
