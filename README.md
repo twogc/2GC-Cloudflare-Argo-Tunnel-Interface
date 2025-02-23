@@ -46,26 +46,26 @@
 
 [![2GC FREE SSH](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)](https://github.com/twogc/2GC-Cloudflare-Argo-Tunnel-Interface/releases)
 
-### 2GC BUSINESS
+### 2GC CloudBridge
 
 [GitHub](https://github.com/twogc/2gc-business)
 
 Расширенная версия с дополнительными возможностями для бизнеса.
 
-[![2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg)](https://2gc.ru/download)
+[![2GC CloudBridge](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg)](https://2gc.ru/download)
 
-**Функции 2GC BUSINESS**
+**Функции 2GC CloudBridge**
 
 * Подключение RDP
 * Подключение SSH
 * Подключение любого TCP-порта
 * Шифрованное сохранение логина и пароля
 
-## Личный кабинет 2GC BUSINESS
+## Личный кабинет 2GC CloudBridge
 
 Управляйте доступом и серверами из централизованного интерфейса.
 
-[![Личный кабинет 2GC BUSINESS](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.png)](https://2gc.ru/download)
+[![Личный кабинет 2GC CloudBridge](https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/lk_2gc.png)](https://2gc.ru/download)
 
 ## 👥 Contributors
 

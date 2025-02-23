@@ -65,17 +65,17 @@ For a secure SSH connection via Cloudflare Argo Tunnel.
 
 ---
 
-### 🚀 [2GC BUSINESS](https://2gc.ru/download)  
+### 🚀 [2GC CloudBridge](https://2gc.ru/download)  
 
 [GitHub](https://github.com/twogc/2gc-business)
 
 An advanced version with additional features for businesses.
 
 <div align="center">
-    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg" width="300" alt="2GC Business">
+    <img src="https://pub-a89b5697d4074daeb851dc6c011ed225.r2.dev/2gc_app_list.svg" width="300" alt="2GC CloudBridge">
 </div>
 
-🔹 **2GC BUSINESS Features**  
+🔹 **2GC CloudBridge Features**  
 ✅ RDP connection  
 ✅ SSH connection  
 ✅ Any TCP port connection  
@@ -83,7 +83,7 @@ An advanced version with additional features for businesses.
 
 ---
 
-## 🛠️ 2GC BUSINESS Dashboard
+## 🛠️ 2GC CloudBridge Dashboard
 
 
 
